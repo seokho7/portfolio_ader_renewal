@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CART - MOBILE - ADERERROR</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../css/mobile_page.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.2.0/swiper-bundle.min.js" integrity="sha512-XHnWZWvy5TkCnPgLU7XsWhGAks1JQ3uFutVxRSH0Z4+djsGkCkxVsYu+JgfrDicvbCmjfUf1HeMWYUvUYKgjzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js" integrity="sha512-7oYXeK0OxTFxndh0erL8FsjGvrl2VMDor6fVqzlLGfwOQQqTbYsGPv4ZZ15QHfSk80doyaM0ZJdvkyDcVO7KFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="../js/mobile.js"></script>
+    <script defer src="../js/cart.js"></script>
+</head>
+<body>
+    <header class="sh_flex sh_jcc sh_aic">
+        <h1><a href="./index.html" class="logo">ADERERROR</a></h1>
+        <a href="#" class="back_btn"><i class="fas fa-arrow-left"></i></a>
+    </header>
+    <aside class="side_menu sh_flex sh_fdc">
+        <div class="menu_header sh_flex sh_aic sh_jcc">
+            <h2>menu</h2>
+            <i class="side_close fas fa-times"></i>
+        </div>
+        <ul class="menu_list sh_flex sh_fdc">
+            <li>
+                <a href="./product_list.html">
+                    <span>메인 스토어 (상품)</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="./product_list.html">
+                    <span>컬렉션</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="./collaboration.html">
+                    <span>콜라보레이션</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="./index.html">
+                    <span>매장정보</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="./sign_in.html">
+                    <span>고객서비스</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="./sign_in.html">
+                    <span>마이페이지</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="menu_footer sh_flex sh_fdc">
+            <div>
+                <a href="#">
+                    <img src="../images/aside_img1.jpg" alt="2021 F/W LINE">
+                    <span>2021 F/W LINE</span>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="../images/aside_img2.jpg" alt="ADER x CASETiFY">
+                    <span>ADER x CASETiFY</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+    <nav class="fix_nav sh_flex sh_jcsb">
+        <a href="#" class="open_aside"><i class="fas fa-bars"></i></a>
+        <a href="#" class="open_search"><i class="fas fa-search"></i></a>
+        <a href="./index.html" class="go_home"><i class="fas fa-home"></i></a>
+        <a href="./cart.html" class="go_cart"><i class="fas fa-shopping-cart"></i></a>
+        <a href="./sign_in.html" class="go_my_page"><i class="fas fa-user"></i></a>
+    </nav>
+    <aside class="search_area sh_flex sh_aic sh_jcc">
+        <i class="search_close fas fa-times"></i>
+        <form action="#">
+            <label for="search" hidden>search</label>
+            <input type="search" id="search" name="search">
+            <button>검색하기</button>
+        </form>
+    </aside>
+    <main ng-app="myApp" ng-controller="myCtrl">
+        <section class="cart_header">
+            <h2>장바구니</h2>
+            <h3><span>{{count[0] + count[1] + count[2]}}</span>개 상품</h3>
+        </section>
+        <section class="cart_main">
+            <h3 class="hidden">cart-main</h3>
+            <div class="sh_flex select_a">
+                <a href="#" class="all_select_btn">전체선택</a>
+                <a href="#" class="check_delete_btn" ng-click="countBack()">선택삭제</a>
+            </div>
+            <ul class="cart_main_list sh_flex sh_fdc">
+                <li class="sh_flex" ng-init="count[0]" ng-class="{check: hide}" ng-hide="checked">
+                    <a href="./detail.html"><img src="../images/detail/cart1.jpg" alt=""></a>
+                    <div class="sh_flex sh_fdc sh_jcsb">
+                        <p class="sh_flex sh_jcsb">
+                            <a href="./detail.html">NAME : Liny knit</a>
+                            <input type="checkbox" id="checkbox1" name="checkbox1" class="hidden" ng-model="hide">
+                            <label for="checkbox1">checkbox</label>
+                        </p>
+                        <p class="cart_item_size">SIZE : A1</p>
+                        <p class="cart_item_price">PRICE : {{product_price | number}}</p>
+                        <div class="qty_box sh_flex sh_aic">
+                            <span>QTY : <em>{{count[0] }}</em></span>
+                            <p class="sh_flex">
+                                <i class="far fa-minus-square" ng-click = "minus1()"></i>
+                                <i class="far fa-plus-square" ng-click = "count[0] = count[0] + 1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="sh_flex" ng-init="count[1]" ng-class="{check: hide2}">
+                    <a href="./detail.html"><img src="../images/detail/cart2.jpg" alt=""></a>
+                    <div class="sh_flex sh_fdc sh_jcsb">
+                        <p class="sh_flex sh_jcsb">
+                            <a href="./detail.html">NAME : Liny knit</a>
+                            <input type="checkbox" id="checkbox2" name="checkbox2" class="hidden" ng-model="hide2">
+                            <label for="checkbox2">checkbox</label>
+                        </p>
+                        <p class="cart_item_size">SIZE : A1</p>
+                        <p class="cart_item_price">PRICE : {{product_price2 | number}}</p>
+                        <div class="qty_box sh_flex sh_aic">
+                            <span>QTY : <em>{{count[1]}}</em></span>
+                            <p class="sh_flex">
+                                <i class="far fa-minus-square" ng-click = "minus2()"></i>
+                                <i class="far fa-plus-square" ng-click = "count[1] = count[1] + 1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="sh_flex" ng-init="count[2]" ng-class="{check: hide3}">
+                    <a href="./detail.html"><img src="../images/detail/cart1.jpg" alt=""></a>
+                    <div class="sh_flex sh_fdc sh_jcsb">
+                        <p class="sh_flex sh_jcsb">
+                            <a href="./detail.html">NAME : Liny knit</a>
+                            <input type="checkbox" id="checkbox3" name="checkbox3" class="hidden" ng-model="hide3">
+                            <label for="checkbox3">checkbox</label>
+                        </p>
+                        <p class="cart_item_size">SIZE : A1</p>
+                        <p class="cart_item_price">PRICE : {{product_price3 | number}}</p>
+                        <div class="qty_box sh_flex sh_aic">
+                            <span>QTY : <em>{{count[2]}}</em></span>
+                            <p class="sh_flex">
+                                <i class="far fa-minus-square" ng-click = "minus3()"></i>
+                                <i class="far fa-plus-square" ng-click = "count[2] = count[2] + 1"></i>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="cart_footer">
+            <h3 class="hidden">cart-footer</h3>
+            <div>
+                <p>주문예정금액</p>
+                <p class="sh_flex sh_jcsb">
+                    <span>총 상품금액</span>
+                    <span>{{(product_price * count[0]) + (product_price2 * count[1]) + (product_price3 * count[2]) | number }}원</span>
+                </p>
+                <p class="sh_flex sh_jcsb">
+                    <span>총 배송비</span>
+                    <span>0원</span>
+                </p>
+                <p class="sh_flex sh_jcsb">
+                    <span>총 결제금액</span>
+                    <span>{{(product_price * count[0]) + (product_price2 * count[1]) + (product_price3 * count[2]) | number}}원</span>
+                </p>
+                <a href="#" class="total_order_btn">주문하기</a>
+            </div>
+        </section>
+        <section class="related_product">
+            <h3>추천상품</h3>
+            <ul class="sh_flex">
+                <li>
+                    <a href="#"><img src="../images/detail/cart-sub1.jpg" alt=""></a>
+                    <div class="product_np">
+                        <p>Toggle tote bag</p>
+                        <p>489,000</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="../images/detail/cart-sub2.jpg" alt=""></a>
+                    <div class="product_np">
+                        <p>Toggle tote bag</p>
+                        <p>489,000</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><img src="../images/detail/cart-sub3.jpg" alt=""></a>
+                    <div class="product_np">
+                        <p>Toggle tote bag</p>
+                        <p>489,000</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h5>Company ADER </h5>
+        <div>
+            <p>사업자 등록번호 : 760-87-01757</p>
+            <p>통신판매업신고번호: 2021-서울성동-01588</p>
+            <p>개인정보관리책임자 : 정승환</p>
+            <address>고객센터 : 서울 성동구 연무장길 ADER 3층 53번지 </address>
+            <address>02-792-2232 </address>
+            <p>월 ~ 금 AM 10:00 - PM 5:00</p>
+        </div>
+        <p>&copy; 2021 ADER All Rights Reserved</p>
+    </footer>
+</body>
+</html>

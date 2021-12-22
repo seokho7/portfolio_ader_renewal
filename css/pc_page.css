@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;900&display=swap');
+
+:root{
+    --kr-text-style : 'NanumSquareRound','sans-serif';
+    --en-text-style : 'Jost', sans-serif;
+    --common-padding: 40px;
+    --common-mid-padding: 30px;
+    --text-color: #525252;
+    --highlight-color: #0001c8;
+    --white-color: #fff;
+    --hide-color: #c4c4c4;
+    --sub1-color: #e2e2e2;
+    --sub2-color: #241f20;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background: url(../images/21FW_editorial_image_desktop51.jpg);
+    position: relative;
+    
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.6);
+    z-index: -1;
+}
+
+body > div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > div:first-child{
+    flex: 1.5;
+}
+.mokup{
+    position: relative;
+    /* background: var(--white-color); */
+    overflow: hidden;
+}
+
+.mokup > img{
+    position: absolute;
+    width: 440px;
+    height: 900px;
+    pointer-events: none;
+}
+
+iframe{
+    min-width: 400px;
+    height: 820px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: var(--white-color);
+    border-radius: 0 0 40px 20px;
+}
+
+
+.modal_box{
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 40px
+}
+
+.modal_box > div{
+    background: #fff;
+    box-shadow: 0 0 5px var(--highlight-color);
+    padding: 40px;
+}
+.modal_box a{
+    display: inline-block;
+}
+
+.modal_box em{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.technic em:last-child{
+    color: var(--highlight-color);
+    font-weight: 900;
+}
+
+.modal_tt{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+.m_area{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.m_area em{
+    color:  orange;
+}
+.m_caption{
+    font-size: 14px;
+}
+
+.myname a{
+    color: var(--highlight-color);
+}
+.modal_box h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.m_bottom{
+    margin-bottom: 10px;
+}
+.end_page a{
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 3px;
+    color: var(--text_color);
+    border-bottom: 1px solid var(--highlight-color);
+}
+
+.project_link{
+    color: var(--text_color);
+    font-weight: bold;
+}
+.project_link:hover,
+.end_page a:hover{
+    color: var(--highlight-color);
+}
+
+.myname{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .modal_box{display: none;}
+}
